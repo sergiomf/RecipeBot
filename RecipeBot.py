@@ -61,7 +61,7 @@ if "preferences" not in st.session_state:
 # Step 1: Get user input
 food_name = st.text_input(
     'Enter the name of the food you want to look up:',
-    placeholder="e.g., Spaghetti Bolognese",
+    placeholder="e.g., Farofa com coca cola",
     help="Enter a dish to get its macronutrient breakdown and a personalized recipe."
 )
 
